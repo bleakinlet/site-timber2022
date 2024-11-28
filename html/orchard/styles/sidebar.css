@@ -1,0 +1,30 @@
+.sidebar-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 70px;
+
+}
+
+.sidebar-buttons img {
+    width: 50px;
+}
+
+.sidebar-buttons {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    padding: 10px;
+    row-gap: 10px;
+}

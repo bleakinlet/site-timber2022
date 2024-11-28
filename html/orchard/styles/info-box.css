@@ -1,0 +1,48 @@
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 100px;
+    color: pink;
+    width: 900px;
+
+}
+
+.info-header {
+    padding: 10px;
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    color: hotpink;
+}
+
+.info-subject {
+    color:brown;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.69);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.goblin-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    color: pink;
+    position: absolute;
+    background-color: purple;
+    width: 350px;
+}
+
+.goblin-header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    color: white;
+}
+
+.goblin-info {
+    font-size: 17px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>pink orchard home</title>
+
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+        <link rel="stylesheet" href="./styles/general.css">
+        <link rel="stylesheet" href="./styles/goblin.css">
+        <link rel="stylesheet" href="./styles/sidebar.css">
+        <link rel="stylesheet" href="./styles/info-box.css">
+
+        <meta content="sepia taiga" property="og:title" />
+        <meta content="alternate reality for the moose zone" property="og:description" />
+        <meta content="https://cryptidsoda.neocities.org/" property="og:url" />
+        <meta content="https://cdn.discordapp.com/attachments/975863522355453984/1004860818741006416/sepia.png" property="og:image" />
+        <meta content="#6f1ca3" data-react-helmet="true" name="theme-color" />
+
+        <script>
+            var explode = new Audio();
+            explode.volume = 0.9;
+            explode.src = "https://cdn.discordapp.com/attachments/975863522355453984/1004897953208606770/goblin.mp3";
+        </script>
+
+    </head>
+    <body>
+        <!--Navigation bar-->
+        <div id="sidebar"></div>
+        <script src="//code.jquery.com/jquery.min.js"></script>
+        <script>
+        $.get("sidebar.html", function(data){
+            $("#sidebar").replaceWith(data);
+        });
+        </script>
+        <!--end of Navigation bar-->
+
+        <div style="margin-left: 60px">
+            <img src="./images/logo.png">
+        </div>
+
+        <div class="goblin-box">
+            <div class="goblin-header">
+               cromblo
+            </div>
+                <a onclick="explode.play();"> <img id="gobby" alt="goblin" src="./images/bogo8.gif"> </a>
+            <p class="goblin-info">crombo protects this page from unwanted people who are mean to me and my friends</p>
+        </div>
+
+        <div class="info-box">
+            <div class="info-header">
+                you have entered the pink orchard, home of the goblins
+            </div>
+            <div class="info-subject">
+                you shoul leave now.. before it is too late.. ore you can stay andfind out the <span style="color: white; text-decoration: underline;">mystery</span>
+                <br>whatever u do.. be safe
+                <br><img src="./images/bogo1.png">
+                <img style="background-color: black;"src="./images/bogo7.gif">
+                <span style="color: yellow; background-color: black;">this website is under conscription</span>
+                <br><span style="color: black">This website was made possible by Squarespace. Squarespace is the absolute easiest way to make your website. I've used them for a few different sites. I basically bought that domain to be sure nobody else could. I didn't really have the time or need to create a fancy website, so I just spent about 15 minutes to throw together a landing page. It was incredibly easy with the Squarespace template and, in my opinion at least, it looks great. Now I can give people one link that takes them to a page with the link to all my different social media profiles. You can really create a landing page like this, a blog, a store, really anything with Sqaurespace and what's best is that you can get 10% </span>
+
+            </div>
+        </div>
+
+    </body>
+
+</html>

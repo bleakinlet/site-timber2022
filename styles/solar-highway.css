@@ -1,0 +1,37 @@
+#text-box-grid {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+.text-box-description {
+    max-width: 700px;
+    min-width: none;
+    margin-right: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.text-box-images {
+    overflow-y: scroll;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 700px;
+    scrollbar-color: rgb(187, 67, 37) rgba(0,0,0, 0.5);
+}
+
+.text-box-images img {
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1200px) {
+    #text-box-grid {
+        flex-direction: column;
+    }
+}

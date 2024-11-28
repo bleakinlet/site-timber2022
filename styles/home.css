@@ -1,0 +1,44 @@
+
+
+#postcard-bio {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+
+#text-box-home {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-flow: row;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 60px;
+    border-radius: 10px;
+}
+
+@media (max-width: 1200px) {
+    #text-box-home {
+        flex-direction: column;
+    }
+}
+
+.info-title-home {
+    font-size: 40px;
+    font-weight: 500;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+
+.subtitle-home {
+    color: rgb(238, 69, 18);
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.body-home {
+    padding: 40px;
+    font-size: 20px;
+}
+

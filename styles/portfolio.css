@@ -1,0 +1,25 @@
+.art-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 40px;
+    overflow-y: scroll;
+
+    background-color: rgba(0,0,0,0.3);
+    padding: 25px;
+    scrollbar-color: rgba(100, 100, 100,0.5) rgba(0,0,0,0.2);
+}
+
+.art-container img {
+    max-width: 350px;
+    max-height: 400px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.art-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
